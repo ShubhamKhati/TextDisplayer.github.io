@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(skyblue,white);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 20px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 4px 3px;
+}
+.quote input{
+    width: 89%;
+}
+@media(max-width:480px){
+     .quote input{
+        width:79%;
+     }
+     .quote h1{
+        font-size:large;
+     }
+     .quote{
+        width:200px;
+     }
+}
