@@ -24,6 +24,12 @@ body{
     outline: none;
     border-color:  lightgrey;
 }
+#Submit{
+    padding: 10px;
+    outline: none;
+    border-color:  lightgrey;
+    border-radius: 5px;
+}
 #msg-input{
     padding: 10px;
     width: 80%;
@@ -33,7 +39,7 @@ body{
 }
 @media(max-width:480px){
      .quote input{
-        width:79%;
+        width:70%;
      }
      .quote h1{
         font-size:large;
