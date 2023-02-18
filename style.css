@@ -39,7 +39,7 @@ body{
 }
 @media(max-width:480px){
      .quote input{
-        width:70%;
+        width:40%;
      }
      .quote h1{
         font-size:large;
