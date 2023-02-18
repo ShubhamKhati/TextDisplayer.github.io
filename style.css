@@ -15,8 +15,21 @@ body{
     border-radius: 5px;
     box-shadow: 4px 3px;
 }
-.quote input{
-    width: 89%;
+#message-output{
+    word-wrap: break-word;
+}
+#side{
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border-color:  lightgrey;
+}
+#msg-input{
+    padding: 10px;
+    width: 80%;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    border-color: lightgray;
 }
 @media(max-width:480px){
      .quote input{
