@@ -47,4 +47,7 @@ body{
      .quote{
         width:200px;
      }
+     #msg-input{
+        width: 65%;
+     }
 }
